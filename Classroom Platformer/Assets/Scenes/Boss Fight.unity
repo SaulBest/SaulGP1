@@ -205,7 +205,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &502286790
 GameObject:
@@ -375,50 +375,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d04208cb331f20940bc70c8401379a43, type: 3}
---- !u!1 &1142570957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4937754020521780148, guid: d04208cb331f20940bc70c8401379a43, type: 3}
-  m_PrefabInstance: {fileID: 1142570956}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1142570958
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142570957}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d7f9d238ac3c3df4b9930c4ca5b5925a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &1142570964 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4937754020521780138, guid: d04208cb331f20940bc70c8401379a43, type: 3}
-  m_PrefabInstance: {fileID: 1142570956}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1142570970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142570957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c9ba8d25162c7741aa445b2ddff0929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  deathEffect: {fileID: 0}
 --- !u!1 &1601652628
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,9 +610,6 @@ GameObject:
   - component: {fileID: 1862483392}
   - component: {fileID: 1862483391}
   - component: {fileID: 1862483390}
-  - component: {fileID: 1862483397}
-  - component: {fileID: 1862483396}
-  - component: {fileID: 1862483395}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -798,47 +751,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862483395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862483389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6a9400317ca47f4f831801fc10a7502, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 20
-  attackOffest: {x: 0, y: 0, z: 0}
-  attackRange: 1
-  attackMask:
-    serializedVersion: 2
-    m_Bits: 0
---- !u!114 &1862483396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862483389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67bdf61c6d5d20478d22e83411162d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1862483397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862483389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9b27e3dc2e11e4408f6c4326975a931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1142570964}
-  isFlipped: 0
