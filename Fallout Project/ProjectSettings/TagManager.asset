@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Currency
+  - Equipment
   layers:
   - Default
   - TransparentFX
