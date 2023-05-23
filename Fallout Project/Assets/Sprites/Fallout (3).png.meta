@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c59e74981af68d42a45eac3b706aeed
+guid: 39af8a74b62788f4a98eaae66898987c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 64
-  spriteBorder: {x: 0, y: 66, z: 61, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fallout (2)_0
+      name: Fallout (3)_0
       rect:
         serializedVersion: 2
         x: 18
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef9ccaf79e43a24b8db49ba1b6d1e5b
-      internalID: 2063122603
+      spriteID: db11967b2642f0f4a91dea133aa9ddb5
+      internalID: -1141241662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fallout (2)_1
+      name: Fallout (3)_1
       rect:
         serializedVersion: 2
         x: 82
-        y: 74
+        y: 73
         width: 27
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa674f2405b0b543b979f8751a7dab5
-      internalID: 13723907
+      spriteID: afb4e0c87ed6f7d468551f212013f4f0
+      internalID: 127319273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fallout (2)_2
+      name: Fallout (3)_2
       rect:
         serializedVersion: 2
         x: 18
-        y: 11
+        y: 9
         width: 27
-        height: 45
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a34441978ddce645927a6d8bdc403a4
-      internalID: -685045724
+      spriteID: 13daf1c9eb51531488290b12f102613c
+      internalID: 736197180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fallout (2)_3
+      name: Fallout (3)_3
       rect:
         serializedVersion: 2
         x: 82
-        y: 10
+        y: 9
         width: 27
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f015c533037cb4d8a926de051643d9
-      internalID: 424017620
+      spriteID: 0b99578989f99ae4c9182ecdfe5bdb84
+      internalID: 383252267
       vertices: []
       indices: 
       edges: []
@@ -251,17 +251,17 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fallout (2)_2: -685045724
-      Fallout (2)_1: 13723907
-      Fallout (2)_3: 424017620
-      Fallout (2)_0: 2063122603
+      Fallout (3)_0: -1141241662
+      Fallout (3)_3: 383252267
+      Fallout (3)_1: 127319273
+      Fallout (3)_2: 736197180
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
