@@ -157,7 +157,11 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD:Fallout Project 2023/Assets/Sprites/Animations/Zombie.controller
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> b01eebdd128479a7c5c1086a806395e64b8f5021:Fallout Project/Assets/Sprites/Animations/Zombie.controller
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
